@@ -1,0 +1,132 @@
+
+body {
+    
+    font-family: Arial;
+    text-align: left;
+    background-image:url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }y
+  .main{
+    height: 200px;
+    width: 600px;
+    display: fixed;
+  }
+  .col-2{
+    border: 2px solid blue;
+    width: 45%;
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    display: fixed;
+  }
+  .col-1{
+    border: 10px solid green;
+    width: 50%;
+    display: fixed;
+  }
+  
+  .useradd-container{
+    height: 200px;
+    width: 600px;
+  }
+  .header{
+    text-align: center ;
+    color: black;
+    text-decoration: burlywood;
+    word-spacing: 1px;
+    margin-left: 8PX;
+  }
+  .field{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20PX ;
+    color: blue;
+    padding: 8px;
+    text-align: left;
+    shape-margin: 5px;
+    
+}
+#fname,#lname,#dob,#doj,#ban_acc,#ban_name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px ;
+    text-align: left;
+    border-color: #0c47bd;
+    width: 45%;
+    text-align: 10px;   
+}
+#fname{
+    margin-left: 19%;
+}
+#gender-Male{
+    margin-left: 24%;
+   
+}
+#gender-Female{
+  margin-left: 5%;
+}
+#gender-other{
+  margin-left: 5%;
+}
+#lname{
+    margin-left: 20%;
+}
+#dob{
+    margin-left: 14%;
+}
+#doj{
+    margin-left: 11%;
+}
+#ban_acc{
+    margin-left: 6%;
+}
+#ban_name{
+    margin-left: 20%;
+}
+
+
+.save,.reset{
+    color: rgb(5, 5, 5);
+    border-radius: 5px ;
+    border-color:none;
+    size: 10px;
+    background-color: #f4f5f7;
+    text-align: center;
+    font-size: 16px;
+    padding: 6px;
+    width: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: #164ebe;
+}
+.reset{
+    
+    margin-left: 20%;
+    
+
+}
+.save:hover{
+    background-color: brown;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 10px;
+    padding:5px;   
+    text-align: right;
+}
+.reset:hover{
+    background-color: brown;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 10px;
+    padding:5px;   
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    height: 80%;
+    width: 100%;
+  } 
+  th,td,tr {
+    border: 1px solid black;
+  }
+  
